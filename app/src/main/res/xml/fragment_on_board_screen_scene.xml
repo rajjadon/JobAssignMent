@@ -6,7 +6,7 @@
         motion:autoTransition="animateToEnd"
         motion:constraintSetEnd="@layout/end_login"
         motion:constraintSetStart="@layout/start_login"
-        motion:duration="5000">
+        motion:duration="1000">
 
         <KeyFrameSet>
 
@@ -16,13 +16,6 @@
                 motion:motionTarget="@+id/ivDummy"
                 motion:percentX="1"
                 motion:percentY="1" />
-
-            <KeyPosition
-                motion:framePosition="60"
-                motion:keyPositionType="deltaRelative"
-                motion:motionTarget="@+id/ivDummy"
-                motion:percentX="0"
-                motion:percentY="0" />
 
             <KeyAttribute
                 android:alpha="0"
