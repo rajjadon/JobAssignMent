@@ -13,10 +13,15 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
+import com.example.jobassignment.data.SessionManager
+import javax.inject.Inject
 
 abstract class BaseFragment<T : ViewDataBinding> : Fragment() {
 
     lateinit var binding: T
+
+    @Inject
+    lateinit var sessionManager: SessionManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

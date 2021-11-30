@@ -3,7 +3,9 @@ package com.example.jobassignment.ui
 import com.example.jobassignment.R
 import com.example.jobassignment.common.BaseFragment
 import com.example.jobassignment.databinding.FragmentOnBoardScreenBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class OnBoardScreenFragment : BaseFragment<FragmentOnBoardScreenBinding>() {
     override fun getFragmentLayout() = R.layout.fragment_on_board_screen
 
