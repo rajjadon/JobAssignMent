@@ -1,22 +1,21 @@
 package com.example.jobassignment.ui
 
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
+import com.example.jobassignment.R
+import com.example.jobassignment.common.BaseFragment
 import com.example.jobassignment.databinding.FragmentOnBoardScreenBinding
 
-class OnBoardScreenFragment : Fragment() {
-    private lateinit var binding: FragmentOnBoardScreenBinding
+class OnBoardScreenFragment : BaseFragment<FragmentOnBoardScreenBinding>() {
+    override fun getFragmentLayout() = R.layout.fragment_on_board_screen
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
+    override fun implementApiCallsDataReceiver() {
+        /*Not yet implemented*/
+    }
 
-        binding = FragmentOnBoardScreenBinding.inflate(inflater)
-        return binding.root
+    override fun setUpBindingVariables() {
+        /*Not yet implemented*/
+    }
+
+    override fun setClickListener() {
+        /*Not yet implemented*/
     }
 }
