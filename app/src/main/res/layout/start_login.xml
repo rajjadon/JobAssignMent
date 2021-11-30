@@ -42,6 +42,7 @@
             android:inputType="textEmailAddress"
             android:hint="@string/enter_user_name"
             android:padding="16dp"
+            android:singleLine="true"
             android:textSize="16sp"
             tools:ignore="Autofill" />
 
@@ -60,6 +61,7 @@
                 android:background="@drawable/edittext_bg"
                 android:drawableStart="@drawable/ic_baseline_lock_24"
                 android:drawablePadding="16dp"
+                android:singleLine="true"
                 android:lines="1"
                 android:hint="@string/enter_user_password"
                 android:padding="16dp"
@@ -68,7 +70,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

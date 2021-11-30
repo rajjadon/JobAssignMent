@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motionLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp"
@@ -37,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:lines="1"
+                android:singleLine="true"
                 android:background="@drawable/edittext_bg"
                 android:drawableStart="@drawable/ic_baseline_email_24"
                 android:drawablePadding="16dp"
@@ -58,6 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lines="1"
+                    android:singleLine="true"
                     android:background="@drawable/edittext_bg"
                     android:drawableStart="@drawable/ic_baseline_lock_24"
                     android:drawablePadding="16dp"
@@ -68,7 +71,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

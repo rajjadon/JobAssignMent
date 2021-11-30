@@ -14,11 +14,21 @@
             android:id="@+id/action_onBoardScreenFragment_to_homeScreenFragment"
             app:destination="@id/homeScreenFragment"
             app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left" />
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/onBoardScreenFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/homeScreenFragment"
         android:name="com.example.jobassignment.ui.homeScreenFragment.HomeScreenFragment"
         android:label="HomeScreenFragment"
-        tools:layout="@layout/fragment_homescreen" />
+        tools:layout="@layout/fragment_homescreen" >
+        <action
+            android:id="@+id/action_homeScreenFragment_to_onBoardScreenFragment"
+            app:destination="@id/onBoardScreenFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/homeScreenFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
 </navigation>
