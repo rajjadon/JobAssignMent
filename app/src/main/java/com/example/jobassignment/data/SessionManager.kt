@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.map
  */
 
 
-private const val DATA_STORE_NAME = "wakeMate"
+private const val DATA_STORE_NAME = "jobAssignment"
 private val Context.dataStore by preferencesDataStore(DATA_STORE_NAME)
 
 class SessionManager(context: Context) {
