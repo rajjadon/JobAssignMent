@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp">
@@ -13,7 +14,8 @@
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/app_name" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/mainCons"
@@ -35,9 +37,11 @@
             android:background="@drawable/edittext_bg"
             android:drawableStart="@drawable/ic_baseline_email_24"
             android:drawablePadding="16dp"
+            android:lines="1"
             android:padding="16dp"
             android:textSize="16sp"
-            android:hint="@string/enter_user_name" />
+            android:hint="@string/enter_user_name"
+            tools:ignore="Autofill,TextFields" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/loginScreenSetPasswordInputLayout"
@@ -54,6 +58,7 @@
                 android:background="@drawable/edittext_bg"
                 android:drawableStart="@drawable/ic_baseline_lock_24"
                 android:drawablePadding="16dp"
+                android:lines="1"
                 android:hint="@string/enter_user_password"
                 android:padding="16dp"
                 android:textSize="16sp" />

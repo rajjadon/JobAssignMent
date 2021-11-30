@@ -25,6 +25,12 @@ class SessionManager(context: Context) {
             it[booleanPreferencesKey(IS_LOGGED_IN)] ?: false
         }
 
+    suspend fun saveSession(isLogin: Boolean) {
+        dataStore.edit {
+            it[booleanPreferencesKey(IS_LOGGED_IN)] = isLogin
+        }
+    }
+
     suspend fun deleteSession() {
         dataStore.edit { it.clear() }
     }

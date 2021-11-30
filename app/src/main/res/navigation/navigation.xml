@@ -7,7 +7,18 @@
 
     <fragment
         android:id="@+id/onBoardScreenFragment"
-        android:name="com.example.jobassignment.ui.OnBoardScreenFragment"
+        android:name="com.example.jobassignment.ui.onBoardScreenFragment.OnBoardScreenFragment"
         android:label="OnBoardScreenFragment"
-        tools:layout="@layout/fragment_on_board_screen" />
+        tools:layout="@layout/fragment_on_board_screen">
+        <action
+            android:id="@+id/action_onBoardScreenFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.example.jobassignment.ui.homeScreenFragment.HomeScreenFragment"
+        android:label="HomeScreenFragment"
+        tools:layout="@layout/fragment_homescreen" />
 </navigation>

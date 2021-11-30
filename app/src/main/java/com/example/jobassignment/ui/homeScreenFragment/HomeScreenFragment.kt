@@ -1,13 +1,12 @@
-package com.example.jobassignment.ui
+package com.example.jobassignment.ui.homeScreenFragment
 
 import com.example.jobassignment.R
 import com.example.jobassignment.common.BaseFragment
-import com.example.jobassignment.databinding.FragmentOnBoardScreenBinding
-import dagger.hilt.android.AndroidEntryPoint
+import com.example.jobassignment.databinding.FragmentHomescreenBinding
 
-@AndroidEntryPoint
-class OnBoardScreenFragment : BaseFragment<FragmentOnBoardScreenBinding>() {
-    override fun getFragmentLayout() = R.layout.fragment_on_board_screen
+class HomeScreenFragment : BaseFragment<FragmentHomescreenBinding>() {
+
+    override fun getFragmentLayout() = R.layout.fragment_homescreen
 
     override fun implementApiCallsDataReceiver() {
         /*Not yet implemented*/

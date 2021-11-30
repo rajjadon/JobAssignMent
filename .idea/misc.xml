@@ -6,8 +6,11 @@
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/drawable-v24/edittext_bg.xml" value="0.2625" />
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/drawable-v24/ic_baseline_email_24.xml" value="0.2625" />
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.2625" />
+        <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/drawable-v24/ic_info.xml" value="0.26205128205128203" />
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/layout/custom_snackbar_layout.xml" value="0.25" />
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/layout/end_login.xml" value="0.25" />
+        <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/layout/fragment_homescreen.xml" value="0.25" />
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/layout/fragment_on_board_screen.xml" value="0.25" />
         <entry key="..\:/Android/Android Project/My Projects/JobAssignMent/app/src/main/res/layout/start_login.xml" value="0.25" />
       </map>
