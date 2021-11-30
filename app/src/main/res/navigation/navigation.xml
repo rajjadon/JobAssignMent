@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/onBoardScreenFragment">
 
+    <fragment
+        android:id="@+id/onBoardScreenFragment"
+        android:name="com.example.jobassignment.ui.OnBoardScreenFragment"
+        android:label="OnBoardScreenFragment"
+        tools:layout="@layout/fragment_on_board_screen" />
 </navigation>
