@@ -31,6 +31,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="boxStrokeColor">@color/lightGrey</item>
+        <item name="hintEnabled">false</item>
         <item name="backgroundTint">@color/lightGrey</item>
         <item name="android:colorControlActivated">@color/lightGrey</item>
         <item name="android:colorControlHighlight">@color/lightGrey</item>
