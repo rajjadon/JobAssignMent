@@ -1,9 +1,3 @@
-/*
- * Created by Dheeraj on 22/09/21, 7:14 PM
- * Copyright (c) 2021 . All rights reserved.
- * Last modified 22/09/21, 6:52 PM
- */
-
 package com.example.jobassignment.common
 
 import android.annotation.SuppressLint
